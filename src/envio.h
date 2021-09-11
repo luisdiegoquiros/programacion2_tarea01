@@ -1,15 +1,17 @@
 #ifndef ENVIO_H
 #define ENVIO_H
 
-class Envio {
-    
-    public:
+class Envio
+{
+
+protected:
     Envio(int peso, int distancia);
+
+public:
     ~Envio();
     virtual float CalculoEnvio();
 
-
-    private:
+private:
     int peso;
     int distancia;
 };
