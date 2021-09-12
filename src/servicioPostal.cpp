@@ -26,7 +26,7 @@ float ServicioPostal::CalculoEnvio()
         }else if (this->getPeso() >= 4 && this->getPeso() <= 8) {
             total = this->getDistancia()*0.0450;
         }else if (this->getPeso() >= 9){
-            total = this->getDistancia()*0.0160;
+            total = this->getDistancia()*0.0500;
         }
     }
     else if (clase == "Tercera")
