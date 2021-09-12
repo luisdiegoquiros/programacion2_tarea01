@@ -6,6 +6,10 @@ Envio::Envio(int peso, int distancia)
     this->distancia;
 }
 
+Envio::~Envio()
+{
+}
+
 int Envio::getPeso()
 {
     return this->peso;
