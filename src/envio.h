@@ -11,13 +11,11 @@ public:
     ~Envio();
     virtual float CalculoEnvio() = 0;
     
-    // Get y Set para peso
+    // Get para peso
     int getPeso();
-    void setPeso(int peso);
 
-    // Get y Set para distancia
+    // Get para distancia
     int getDistancia();
-    void setDistancia(int distancia); 
 
 private:
     int peso;
