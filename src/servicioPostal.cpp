@@ -39,4 +39,5 @@ float ServicioPostal::CalculoEnvio()
             total = this->getDistancia()*0.0170;
         }
     }
+    return total;
 }
