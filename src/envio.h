@@ -9,7 +9,7 @@ protected:
 
 public:
     ~Envio();
-    virtual float CalculoEnvio();
+    virtual float CalculoEnvio() = 0;
     
     // Get y Set para peso
     int getPeso();
