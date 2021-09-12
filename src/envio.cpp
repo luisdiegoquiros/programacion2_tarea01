@@ -2,8 +2,8 @@
 
 Envio::Envio(int peso, int distancia)
 {
-    this->peso;
-    this->distancia;
+    this->peso = peso;
+    this->distancia = distancia;
 }
 
 Envio::~Envio()
