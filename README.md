@@ -7,6 +7,8 @@ Programada en Windows 10 utilizando Visual Studio Code 1.60.0
 
 Instrucción para compilar el programa:
 * g++ -std=c++17 -g ./src/*.cpp -o ./obj/main
+
+
 Para ejecutar el programa se debe ejecutar el archivo: /obj/main.exe
 
 Instrucción para ejecutar los tests:
